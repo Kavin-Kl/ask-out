@@ -1,0 +1,66 @@
+#no-b1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+h1{
+    align-items: center;
+    text-align: center;
+    font-family:"custom";
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: "custom";
+    src: url("Assets/teenageangst-webfont.woff")format("woff"); 
+}
+  
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yes-b1{
+    position:fixed;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 5%;
+
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-right: 50%;
+}
+
+.whole{
+
+    margin-top: 15%;
+
+}
+
+button{
+    font-family:;
+    font-weight: bolder;
+    color: white;
+    background-color:red;
+}
+
+body{
+    background-image: url(Assets/BG.gif);
+}
