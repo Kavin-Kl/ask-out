@@ -24,8 +24,8 @@
         alert("Please enable Media autoplay in your browser settings for better experience ")
         function no(){
             var button = document.getElementById("no-b1");
-            var maxX = window.innerWidth - button.offsetWidth;
-            var maxY = window.innerHeight - button.offsetHeight;
+            var maxX = window.innerWidth - button.offsetWidth-(0.05 * window.innerWidth);;
+            var maxY = window.innerHeight - button.offsetHeight-(0.12 * window.innerWidth);;
 
             var randomX = Math.random() * maxX;
             var randomY = Math.random() * maxY;
