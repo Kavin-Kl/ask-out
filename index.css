@@ -68,5 +68,5 @@ button{
 body{
     background-image: url(Assets/BG.gif);
     background-size: cover;
-    cursor: url('cursor.png'), auto;
+    cursor: url('Assets/cursor.png'), auto;
 }
